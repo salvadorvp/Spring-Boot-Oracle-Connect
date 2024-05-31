@@ -22,5 +22,8 @@ The POM file needs these two dependencies at a minimum:
 			<version>19.8.0.0</version>
 		</dependency>
 ```
+
+
+
 Sample output of reading the EndUser table:
 ![Sample output of reading the EndUser table](enduserlist.png)
