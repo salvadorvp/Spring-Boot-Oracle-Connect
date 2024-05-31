@@ -9,5 +9,18 @@ You need to update the `application.properties` file to change the following pro
 
 The files `EndUserController.java` and `EndUser.java` have the Spring configuration/annotations for reading the EndUser database (Oracle) table and converting the data to instances of the EndUser class.
 
+The POM file needs these two dependencies at a minimum:
+```
+		<!-- Database libraries -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>19.8.0.0</version>
+		</dependency>
+```
 Sample output of reading the EndUser table:
 ![Sample output of reading the EndUser table](enduserlist.png)
