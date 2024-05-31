@@ -2,6 +2,8 @@
 A Spring Boot sample application that connects to an Oracle database.
 This was built with Spring Boot v.3.2.5 and Spring Security v.6.0 (Requires Java 17).
 
+This sample application builds on top of the [Spring-Boot-Simple-Login demo application](https://github.com/salvadorvp/Spring-Boot-Simple-Login)
+
 You need to update the `application.properties` file to change the following properties:
 - spring.datasource.url=jdbc:oracle:thin:@//example.com:1521/SID
 - spring.datasource.username=usernm
